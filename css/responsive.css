@@ -1,0 +1,404 @@
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/**********************************
+Sticky Menu Code Srat
+************************************/
+     .isStuck{
+        left:0px;
+        right:0;
+        width:100%;
+        background:#F6F6F6;     
+    }
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+          margin-top:0px;
+          position: relative;
+          z-index: 55;
+    }
+    html{
+        font-size:48%;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .navbar-expand-md .navbar-nav .active{
+         background:url(../images/manu%20hover.png)center bottom no-repeat;
+    }
+    .navbar-expand-md .navbar-nav .nav-link:hover{
+        background:url(../images/manu%20hover.png)center bottom no-repeat;
+        color: #511de5;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin: 3rem 0;
+    }
+    .header-section .btn-danger {
+     margin: 2rem auto;
+     }
+    .header-section .btn-success {
+     margin: 2rem auto;
+    }
+   .header-section .header-inner h1 {
+        line-height: 5rem;
+        font-size: 4rem;
+        margin-top: 4rem;
+      text-align: center;
+    }
+    .header-inner{
+        text-align: center;
+    }
+    .header-inner .btn-info {
+      float: none;
+    }
+    .header-inner {
+        width: 100%;
+        padding: 13rem 0 18rem 0;
+   }
+    .going-inner h2 {
+        font-size: 2rem;
+        padding-right: 0rem;
+        margin:0rem 0 2rem 4rem;
+   }
+    .going-inner p {
+        font-size: 1.2rem;
+        padding-right: 15rem;
+        margin-left: 4rem;
+    }
+    .persent-div span {
+     margin-left: 1rem;
+    }
+    .love-img p {
+        padding: 0 2rem;
+        margin-left: 2rem;
+        text-align: center;
+    }
+    
+    .love-img span {
+        margin-left: 0;
+        text-align: center;
+    }
+    .love-img-text {
+      text-align: center;
+    }
+    .love-img-text h2 {
+        padding-right: 2rem;
+        margin-top: 14rem;
+        margin-left: 4rem;
+    }
+    .efficent-title {
+        width: 100%;
+        text-align: center;
+   }
+    .efficent-title span {
+  padding-left: 0;
+  color: #1a1a1a font-size: 1.2rem;
+  font-weight: 400;
+}
+    .love-img-text .btn-info {
+     margin: 4rem 1.2rem 0 4rem;
+    }
+    .efficent-title h2 {
+     padding: 0 4rem;
+   }
+    .efficent-title p {
+        font-size: 1.5rrem;
+        margin: 4rem 0;
+    }
+    .efficent-title li {
+     padding: 1rem 1rem 1rem 4rem;
+    }
+    .efficent-img img {
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .feedback-title h2 {
+     padding: 0;
+   }
+    .feedback-title p {
+    padding: 0;
+    }
+    .card-section  .card-b{
+         margin-bottom: 4rem;
+     }
+    .client {
+        width:70%;
+        margin: 0 auto;
+   }
+    .footer-section{
+        text-align: center;
+    }
+    .footer-section .offset-2 {
+     margin: 0 auto;
+    }
+    .footer-title h2 {
+        font-size: 3rem;
+        padding: 3rem 5rem;
+    }
+    .card-body {
+     padding: 0 9rem;
+    }
+    .footer-left {
+        margin: 3rem 0;
+        text-align: center;
+    }
+    .client-title h4 {
+      padding: 0 6rem;
+     }
+  
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /**********************************
+Sticky Menu Code Srat
+************************************/
+     .isStuck{
+        left:0px;
+        right:0;
+        width:100%;
+        background:#F6F6F6;    
+    }
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+          margin-top:0px;
+          position: relative;
+          z-index: 55;
+    }
+    html{
+        font-size:55%;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .navbar-expand-md .navbar-nav .active{
+         background:url(../images/manu%20hover.png)center bottom no-repeat;
+    }
+    .navbar-expand-md .navbar-nav .nav-link:hover{
+        background:url(../images/manu%20hover.png)center bottom no-repeat;
+        color: #511de5;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin: 3rem 0;
+    }
+     .header-section .btn-danger {
+     margin: 2rem auto;
+     }
+    .header-section .btn-success {
+     margin: 2rem auto;
+    }
+   .header-section .header-inner h1 {
+        line-height: 5rem;
+        font-size: 4rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .header-inner{
+        text-align:center;
+        padding: 13rem 0 16rem 0;
+    }
+    .header-inner .btn-info {
+      float: none;
+   }
+    .going-inner h2 {
+        font-size: 3rem;
+        padding-right: 1rem;
+        margin: 3rem 0 2rem 5rem;        
+    }
+    .going-inner p {
+        padding-right: 18rem;
+        margin-left: 5rem;
+    }
+    .persent-div span {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .feedback-title h2 {
+       padding: 0;    
+    }
+    .feedback-title p {
+      padding: 0;
+    }
+    .love-img {
+         padding: 4rem 0 10rem 0;
+    }
+    .love-img-text{
+        width: 100%;
+        text-align: center;
+    }
+    .love-img-text h2 {
+        padding-right: 0;
+    }
+    .efficent-title {
+          text-align: center;
+     } 
+    .efficent-title h2 {
+         padding-right: 0;
+    }
+    .efficent-img img {
+        margin: 3rem 0 5rem 0;
+    }
+    .client {
+        width: 60%;
+        margin: 0 auto;
+   }
+    .client-title h4 {
+      padding: 0 6rem;
+    }
+    .card-section  .card-b{
+         margin-bottom: 4rem;
+     }
+    .footer-title h2 {
+      font-size: 3rem;
+    }
+    .offset-2 {
+      margin-left: 0; 
+    }
+    .footer-left {
+        margin: 5rem 0 1rem 0;
+        text-align: center;
+    }
+    .footer-right {
+  text-align: center;
+    }
+     .footer-section{
+        text-align: center;
+    }
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    Sticky Menu Code Srat
+************************************/
+     .isStuck{
+        left:0px;
+        right:0;
+        width:100%;
+         background:blue;    
+    }
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+          margin-top:0px;
+          position: relative;
+          z-index: 55;
+    }
+    html{
+        font-size:55%;
+    }
+    .header-section .header-inner h1 {
+        line-height: 5rem;
+        font-size: 3.5rem;
+        margin-top: 0rem;
+    }
+    .going-inner h2 {
+        padding-right: 27rem;
+        margin-left: 5rem;
+   }
+    .going-inner p {
+        padding-right: 26rem;
+        margin-left: 5rem;    
+    }
+    .love-img p {
+    	padding: 0 9rem;
+    }
+    .love-img span {
+        padding: 2rem 0;
+        margin-left: 9rem;
+        padding-bottom: 17rem;
+    }
+    .love-img-text h2 {
+	    padding-right: 6rem;
+    }
+    .efficent-title h2 {
+	    padding-right: 1rem;
+    }
+    .feedback-title h2 {
+	    padding: 0 16rem;
+    }
+    .feedback-title p {
+	    padding: 0 20rem;
+    }
+    .feedback-inner p {
+    	padding: 0 2rem;
+    }
+
+  
+}
+
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+@media (min-width: 1081px) and (max-width: 2180px) {
+  
+  /**********************************
+Sticky Menu Code Srat
+************************************/
+     .isStuck{
+    left:0px;
+    right:0;
+    width:100%;
+    background:#F6F6F6;      
+    }
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      margin-top:0px;
+      position: relative;
+      z-index: 55;
+
+    }
+  
+}
+
+
+  
+
+
+
+

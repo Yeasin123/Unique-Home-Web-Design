@@ -1,0 +1,519 @@
+*{
+padding:0;
+margin:0;
+list-style:none;
+box-sizing: border-box;
+ text-decoration: none;
+}
+html{
+    font-size:62.5%;
+}
+.body{  
+   font-family: 'Maven Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Libre Franklin', sans-serif;
+}
+body .material-scrolltop{
+    background:#1c1421;
+    border:.2rem solid #4e5c6c;
+}
+.material-scrolltop i{
+    font-size:3rem;
+    color:#fff;
+}
+.material-scrolltop:hover{
+    background:#000221;
+}
+.navbar-toggler {
+	background-color: #08c;
+	color: #fff;
+}
+
+/******************************
+Header-section Section Code Start
+********************************/
+.header-section{
+    width:100%;
+    background: url(../images/Hero.png)center top no-repeat;
+    background-size:cover;
+}
+.header-top{
+    width:100%;
+    padding:2rem 0;
+
+}
+.header-top img{
+    width:60%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: .5rem;
+	padding-left: 1.5rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color:#1c1421;
+}
+.navbar-expand-md .navbar-nav .active .nav-link {
+	padding-right: .5rem;
+	padding-left: 0rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #511de5;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    background:url(../images/manu%20hover.png)  center bottom no-repeat;
+    color: #511de5;
+}
+.navbar-expand-md .navbar-nav .active .nav-link:first-child{
+    margin-left:0;
+}
+.navbar-expand-md .navbar-nav .active{
+    background:url(../images/manu%20hover.png)  center bottom no-repeat;
+}
+.header-section a{
+    margin-left: 2rem;
+}
+.header-section .btn-success {
+	padding: 0.7rem 3.5rem;
+	background: #f2f2f2;
+	color: #1a1a1a;
+	font-weight: 700;
+	border-radius: 2.1rem;
+	font-size: 1.2rem;
+	border: none;
+	transition: 1s;
+}
+.header-section .btn-success:hover{
+    background: linear-gradient(to left,#157cf8,#511de5 60%);
+    transition:1s;
+    color:#fff;
+}
+.header-section .btn-danger:hover{
+    background:transparent;
+}
+.header-section .btn-danger {
+	color: #1a1a1a;
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 1.2rem;
+	font-weight: 700;
+	border: transparent;
+}
+
+.header-section .header-inner h1 {
+	color: #1a1a1a;
+	text-align: right;
+	font-weight: 900;
+	line-height: 6rem;
+	font-size: 5rem;
+	margin-top: 7rem;
+}
+.header-section .header-inner h1 span{
+    color:#511de5;
+    font-weight:700;
+}
+.header-inner .btn-info {
+	color: #1a1a1a;
+	background-color: #f2f2f2;
+	float: right;
+	padding: .8rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	margin: 4rem 0;
+	transition: 1s;
+	text-transform: uppercase;
+}
+.header-inner {
+	width: 100%;
+	padding: 13rem 0 28rem 0;
+}
+.header-inner  .btn-info:hover{
+    background: linear-gradient(to left,#157cf8,#511de5 60%);
+    transition:1s;
+    color:#fff;
+} 
+
+/******************************
+Header-section Section Code End
+********************************/
+
+/******************************
+Growing Section Code Start
+********************************/
+.growing-section {
+	width: 100%;
+	padding: 6rem 0 4rem 0;
+	background: url(../images/Highlight%20area.png)center top no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 20;
+	margin-top: -5rem;
+	text-align: center;
+}
+.growing-section h2{
+    color:#fff;
+    font-weight:600;
+    font-size:2.1rem;
+    line-height:3rem;
+    margin-top:2rem;
+}
+
+/******************************
+Growing Section Code End
+********************************/
+
+/******************************
+Goging-from Section Code Start
+********************************/
+.going-section{
+    width:100%;
+    padding:11rem 0 4rem 0;
+  
+}
+.going-inner{
+    width:100%;
+     box-shadow:.2rem .4rem 1rem #ccc;
+    padding: 9rem 0;
+}
+.going-inner h2 {
+	font-size: 3rem;
+	color: #1a1a1a;
+	font-weight: 700;
+	padding-right: 46rem;
+	margin: 3rem 0 2rem 12rem;
+}
+.going-inner p {
+	font-size: 1.2rem;
+	padding-right: 41rem;
+	color: #000000;
+	margin-left: 12rem;
+}
+.persent-div  strong{
+    font-size:9rem;
+    background:linear-gradient(to left,#0a8ffc,#511de5  65%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.persent-div span{
+    margin-left:2rem;
+}
+.going-inner img {
+	width: 40%;
+	display: block;
+	float: right;
+	margin-top: -35rem;
+}
+
+/******************************
+Going-from Section Code End
+********************************/
+
+/******************************
+bottom-design Section Code Start
+********************************/
+.bottom-design-section {
+	width: 100%;
+	padding: 7rem 0;
+}
+
+.bottom-design-main img{
+    width:100%;
+}
+
+/******************************
+bottom-design Section Code End
+********************************/
+
+/******************************
+Love Section Code Start
+********************************/
+.love-section{
+    width:100%;
+    padding:4rem 0 5rem 0;
+    background:url(../images/lovegb.png) center top no-repeat;
+    background-size:cover;
+}
+.love-img {
+	width: 100%;
+	background: url(../images/love.png) center top no-repeat;
+	padding: 4rem 0;
+}
+.love-img p {
+	padding: 0 14rem;
+	font-size: 1.4rem;
+	color: #fff;
+	margin: 15rem 0 0 0;
+}
+.love-img span {
+	display: block;
+	color: #fff;
+	font-size: 1.4rem;
+	padding: 2rem 0;
+	margin-left: 14rem;
+	padding-bottom: 11rem;
+}
+
+.love-img-text .btn-info {
+	color: #1a1a1a;
+	background-color: #f2f2f2;
+	padding: .8rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	margin: 3rem 0;
+	transition: 1s;
+	text-transform: uppercase;
+}
+.love-img-text .btn-info:hover{
+    background: linear-gradient(to left,#157cf8,#511de5 60%);
+    transition:1s;
+    color:#fff;
+}
+
+.love-img-text h2{
+	padding-right: 13rem;
+	font-size: 3rem;
+	margin-top: 14rem;
+	font-weight: 600;
+}
+
+/******************************
+Love Section Code End
+********************************/
+
+/******************************
+Efficent Section Code Start
+********************************/
+.efficent-section{
+    width:100%;
+    padding:4rem 0;
+    border-bottom:.1rem solid #e9e9e9;
+}
+.efficent-title {
+    width:100%;
+}
+.efficent-title h2 {
+	padding-right:8rem;
+	font-size: 3rem;
+	margin-top: 9rem;
+	font-weight:700;
+}
+.efficent-title p {
+	font-size: 1.4rem;
+	color:#1a1a1a;
+	margin: 2rem 0 0 0;
+	font-weight: 500;
+}
+.efficent-img img {
+	margin-top: 13rem;
+	width: 100%;
+}
+.efficent-title li{
+    padding: 1rem 1rem 1rem 0;
+}
+.efficent-title span{
+    padding-left:2rem;
+    color:#1a1a1a
+    font-size: 1.2rem;
+    font-weight:400
+}
+.efficent-title .btn-info {
+	color: #FFF;
+    background: linear-gradient(to left,#157cf8,#511de5 60%);
+	padding: .8rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	margin: 1rem 1.2rem 0 0;
+	transition: 1s;
+	text-transform: uppercase;
+}
+
+.efficent-title .btn-info:hover{
+    background: linear-gradient(to left,#157cf8,#511de5 60%);
+    transition:1s;
+    color:#fff;
+}
+.btn-info {
+	border:none;
+}
+
+/******************************
+Efficent Section Code End
+********************************/
+
+/******************************
+ Feedback Section Code Start
+********************************/
+.feedback-section {
+	width: 100%;
+	padding: 4rem 0 7rem 0;
+	text-align: center;
+	background: #fcfcfc;
+}
+
+.feedback-title h2 {
+	padding: 0 35rem;
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+.feedback-title p {
+	font-size: 1.4rem;
+	color: #1a1a1a;
+	font-weight: 500;
+	padding: 0 26rem;
+    margin-bottom:4rem;
+}
+.feedback-inner{
+    margin-top:4rem;
+}
+.feedback-inner h5 {
+	color: #1a1a1a;
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1rem 0;
+}
+.feedback-inner p {
+	font-size: 1.3rem;
+	padding: 0 5rem;
+}
+
+/******************************
+ Feedback Section Code End
+********************************/
+
+/******************************
+Card Section Code start
+********************************/
+.card-section{
+    width:100%;
+    padding:4rem 0; 
+    text-align: center;
+    background:#ffffff
+}
+.card-section .card-titles h2 {
+	font-size: 4.5rem;
+	color: #1a1a1a;
+	font-weight: 700;
+	padding: 5rem 0 7rem 0;
+}
+.client{
+    width:100%;
+    padding:4rem 0;
+    background:url(../images/cardbg.jpg) center top no-repeat;
+    background-size:cover;
+    box-shadow:.1rem .2rem .5rem #ccc;
+}
+.client-title h4 {
+	font-size: 1.5rem;
+	margin: 6rem 0 8rem 0;
+}
+.client:hover h4{
+     background:linear-gradient(to left,#0a8ffc,#511de5  80%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.client:hover h5{
+    font-weight:700;
+}
+.client-img img {
+	margin-bottom: 1.2rem;
+}
+.card-section .mar-card {
+	margin-bottom: 10rem;
+}
+
+/******************************
+Card Section Code End
+********************************/
+
+
+/******************************
+ Footer Section Code Start
+********************************/
+
+.footer-section {
+	width: 100%;
+	background: url(../images/footer%20image.png) bottom no-repeat;
+	background-size: cover;
+	padding: 2rem 0;
+}
+.footer-title h2 {
+	color: #1a1a1a;
+	font-size: 4rem;
+	font-weight: 700;
+	padding: 3rem 7rem;
+	text-align: center;
+}
+.collaps .btn-link {
+	font-weight: 400;
+	color: #000000;
+	font-size: 1.5rem;
+	font-weight: 600;
+    text-decoration: none;
+}
+.footer-section .btn-link:focus{
+    color:#0000ff
+}
+.collaps p:hover{
+    color:#0000ff
+}
+.card-body {
+	flex: 1 1 auto;
+	padding: 1.25rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+    border:none;
+}
+.card{
+    background:#FFF;
+    border:none;
+}
+.card-header{
+    border:none;
+    background:none;
+}
+.footer-top {
+	background: url(../images/colaps-img.png) center top no-repeat;
+	background-size: cover;
+	background: #F7F7F7;
+	padding: 3rem 0 5rem 0;
+	margin-bottom: 6rem;
+	background: #FFF;
+	box-shadow: .1rem .2rem .5rem #ccc;
+}
+.footer-left {
+	width: 100%;
+	margin: 5rem 0;
+}
+.footer-left ul{
+    margin:0;
+    display: block;
+}
+.footer-left li{
+    display: inline-block;
+    
+}
+.footer-left li a{
+    padding:1.4rem;
+    color:#fff;
+    font-weight:600;
+    text-decoration: none;
+    font-size:1.6rem
+}
+.footer-right{
+    width:100%;
+    margin: 5rem 0;
+}
+.footer-right p{
+    font-size:1.6rem;
+    color:#fff;
+    font-weight: 600;
+}
+
+/******************************
+ Footer Section Code End
+********************************/
+
+
